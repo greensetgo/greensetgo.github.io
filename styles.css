@@ -643,25 +643,7 @@ body {
 }
 
 
-/* Fix for container width and mobile scaling */
-.container {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
 
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 
 
