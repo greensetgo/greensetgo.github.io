@@ -736,3 +736,146 @@ body {
     padding: 40px 15px;
     box-sizing: border-box;
 }
+
+/* ============================
+   📱 Enhanced Mobile Styling
+   ============================ */
+@media (max-width: 768px) {
+
+    /* Header / Logo */
+    .header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .logo-image {
+        width: 55px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .company-name {
+        font-size: 1.3rem;
+        line-height: 1;
+        color: #3e2723;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+        line-height: 1.3;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        color: var(--text-light);
+        margin-bottom: 1.5rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 12px 30px;
+        align-self: center;
+    }
+
+    /* Image scaling */
+    .hero-image,
+    .solution-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    /* Solutions Section */
+    .solution-card {
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .solution-content {
+        padding: 1.5rem 1rem;
+    }
+
+    .solution-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .solution-content p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    /* Carousel arrows */
+    .carousel-arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .carousel-arrow-left {
+        left: 8px;
+    }
+
+    .carousel-arrow-right {
+        right: 8px;
+    }
+
+    /* Contact Section */
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0 10px;
+    }
+
+    .contact-item {
+        padding: 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: 0.9rem;
+        padding: 1.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.6rem;
+    }
+
+    .company-name {
+        font-size: 1.1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+        padding: 10px 24px;
+    }
+}
