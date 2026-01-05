@@ -731,3 +731,8 @@ body {
         width: 100%;
     }
 }
+
+.section {
+    padding: 40px 15px;
+    box-sizing: border-box;
+}
