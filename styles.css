@@ -275,7 +275,18 @@ body {
     border-radius: 15px;
 }
 
-
+.solution-card {
+    display: none;
+    background-color: #d5f0d7; /* light green */
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.25rem;
+    align-items: stretch;
+    padding: 0;
+    height: 600px;
+}
 
 .solution-card.active {
     display: grid;
@@ -641,10 +652,3 @@ body {
         font-size: 1.5rem;
     }
 }
-
-
-
-
-
-
-
