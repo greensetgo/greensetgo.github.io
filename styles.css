@@ -600,9 +600,6 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .solution-card {
-        grid-template-columns: 1fr;
-    }
 
     .solution-image-container {
         height: 250px;
@@ -748,4 +745,5 @@ body {
         right: 10px;
     }
 }
+
 
