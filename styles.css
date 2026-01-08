@@ -655,50 +655,46 @@ body {
 
 @media (max-width: 768px) {
 
+  .carousel-container {
+      overflow: visible !important;
+  }
+
   .solution-card,
   .solution-card.active {
+      display: block !important;
       height: auto !important;
-      display: flex !important;
-      flex-direction: column;
   }
 
   .solution-image-container {
+      height: auto !important;
       min-height: auto !important;
-      height: auto;
-      padding: 1rem;
+      max-height: 240px;
   }
 
   .solution-image {
       width: 100%;
-      height: auto;
+      height: 100%;
       object-fit: cover;
-      max-height: 260px;
+      border-radius: 16px 16px 0 0;
   }
 
   .solution-content {
-      padding: 1.5rem;
+      padding: 1.4rem 1.4rem 1.8rem;
+      background: #d5f0d7;
+      border-radius: 0 0 16px 16px;
   }
 
-  .solution-content p {
-      text-align: left;
-      font-size: 1rem;
-  }
-
+  .solution-content p,
   .solution-features li {
-      font-size: 0.95rem;
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: left;
+      opacity: 1;
+      color: #2C3E50;
   }
 
   .carousel-arrow {
       top: auto;
-      bottom: -55px;
-      transform: none;
-  }
-
-  .carousel-arrow-left {
-      left: 35%;
-  }
-
-  .carousel-arrow-right {
-      right: 35%;
+      bottom: -60px;
   }
 }
