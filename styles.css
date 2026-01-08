@@ -652,3 +652,53 @@ body {
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 768px) {
+
+  .solution-card,
+  .solution-card.active {
+      height: auto !important;
+      display: flex !important;
+      flex-direction: column;
+  }
+
+  .solution-image-container {
+      min-height: auto !important;
+      height: auto;
+      padding: 1rem;
+  }
+
+  .solution-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      max-height: 260px;
+  }
+
+  .solution-content {
+      padding: 1.5rem;
+  }
+
+  .solution-content p {
+      text-align: left;
+      font-size: 1rem;
+  }
+
+  .solution-features li {
+      font-size: 0.95rem;
+  }
+
+  .carousel-arrow {
+      top: auto;
+      bottom: -55px;
+      transform: none;
+  }
+
+  .carousel-arrow-left {
+      left: 35%;
+  }
+
+  .carousel-arrow-right {
+      right: 35%;
+  }
+}
